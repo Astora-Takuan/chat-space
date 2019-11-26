@@ -34,8 +34,8 @@ Things you may want to cover:
 
 ### Association
 
-belong_to :group
-belong_to :user
+* belong_to :group
+* belong_to :user
 
 ## usersテーブル
 
@@ -46,9 +46,9 @@ belong_to :user
 
 ### Association
 
-has_many :groups_users
-has_many :groups, through: groups_users
-has_many :messages
+* has_many :groups_users
+* has_many :groups, through: groups_users
+* has_many :messages
 
 ## groupsテーブル
 
@@ -58,9 +58,9 @@ has_many :messages
 
 ### Association
 
-has_many :groups_users
-has_many :users, through: groups_users
-has_many :messages
+* has_many :groups_users
+* has_many :users, through: groups_users
+* has_many :messages*
 
 ##groups_usersテーブル
 
@@ -71,5 +71,5 @@ has_many :messages
 
 ### Association
 
-belongs_to :group
-belongs_to :user
+* belongs_to :group
+* belongs_to :user
